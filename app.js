@@ -77,7 +77,21 @@ let animal = "yup";
     // anything other than a cow, it will print "Hey! You're not a cow."
     } else {
     console.log("Hey! You're not a cow!");
- }
-
+}
 // Commit.
+
+// E. Driver's Ed
+// Make a variable that will hold a person's age. Be semantic.
+let age = null;
+// // Write code that will print out "Here are the keys",
+//  if the age is 16 years or older.
+if (age >= 16) {
+    console.log(`Here are the keys. You are ${age} years old.`)
+} else {
+    console.log(`Sorry! you're too young. You are only ${age} years old!`)
+};
+// // If the age is younger than 16, a message 
+// should print "Sorry, you're too young."
+
+// // Commit.
 
