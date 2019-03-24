@@ -19,14 +19,26 @@
 
 
 // B. Strings
+
+
+
 // Create a variable called firstVariable.
+let firstVariable;
 // Assign it the value of the string "Hello World"
+firstVariable = "Hello World";
 // Change the value of this variable to some number.
+firstVariable = 9000;
 // Store the value of firstVariable in a new variable called secondVariable
+
+let secondVariable = firstVariable;
 // Change the value of secondVariable to any string.
+
+secondVariable = "It's over 9000!!"
 // What is the value of firstVariable?
+    // 9000
 // Create a variable called yourName and set it equal to your name as a string.
+let yourName = "Joshua Ablan"
 //  Then, write an expression that takes the string "Hello, my name is " and the 
 //  variable yourName 
 // so that it returns a new string with them concatenated.
-
+console.log(`Hello my name is ${yourName}`)
