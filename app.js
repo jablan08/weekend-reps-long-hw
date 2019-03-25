@@ -194,11 +194,13 @@ console.log("I have already done this!");
 // Do Arrays guarantee those things will be in order?
   // Elements are set in a order starting at an index of 0. 
 // What real-life thing could you model with an array?
-
+    // You can model anything that is a list! 
+    //For example, you can list the people who live in your house.
 // 🔴 Commit.
 
 // B. Easy Does It
 // Create an array that contains three quotes and store it in a variable called quotes.
+const quotes = ["Don't think, FEEEL","The Force is strong with this one.","A quote within a qoute."]
 // 🔴 Commit.
 
 // C. Accessing elements
