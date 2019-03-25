@@ -484,6 +484,21 @@ transmogrify(9,5,5);
   
 //   console.log(reverseWordOrder('I use Lâncome on my comb'));
 //   => "comb my on Lâncome use I"
+let newWords = [""];
+let revSent = "";
+const reverseWordOrder = (str) => {
+    for(let i = 0; i < str.length; i++){
+        if(str[i] !== " ") 
+        newWords[newWords.length - 1] += str[i];
+         else if(newWords[newWords.length - 1])
+        newWords.push("");
+    }
+    for (let i = newWords.length-1; i >= 0; i--) {
+        revSent += newWords.pop() + " ";
+        // revSent += newWords[i] + " ";
+    } return console.log(revSent);
+}
+reverseWordOrder("Hello my name is Joshua");
   
 //   🔴 Commit.
   
