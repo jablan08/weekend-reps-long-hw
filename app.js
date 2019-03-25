@@ -151,10 +151,19 @@ for (let i = 0; i <=100; i++) {
 // 🔴 Commit.
 
 // D. Savings account
-// Write code that will save the sum of all the numbers between 1 - 10 to a variable called bank_account.
-// Check your work! Your banck_account should have $55 in it.
-
-// You got a bonus! Your pay is now doubled each week. Write code that will save the sum of all the numbers between 1 - 100 multiplied by 2.
-// Check your work! Your banck_account should have $10,100 in it.
-
+// Write code that will save the sum of all the numbers between 1 - 10 to a 
+//variable called bank_account.
+// Check your work! Your bank_account should have $55 in it.
+let bank_account = 0;
+for (let i =0; i <= 10; i++) {
+    bank_account += i;
+    
+};
+// You got a bonus! Your pay is now doubled each week. Write code that will
+// save the sum of all the numbers between 1 - 100 multiplied by 2.
+// Check your work! Your bank_account should have $10,100 in it.
+let dank_Account = 0;
+for (let i =0; i <= 100; i++) {
+    dank_Account += i * 2; 
+}; console.log(`Your bank account is dank! It has $${dank_Account} doll-hairs!`); 
 // 🔴 Commit.
