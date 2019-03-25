@@ -228,16 +228,23 @@ ourClass.push("Cloud City");
 
 // E. Mix It Up
 // Given the following array: const myArray = [5, 10, 500, 20]
-
-// Add the string "Egon" to the end of the array. Add another string of your choice to the end of the array.
-
+const myArray = [5, 10, 500, 20]
+// Add the string "Egon" to the end of the array. 
+// Add another string of your choice to the end of the array.
+myArray.push("Egon","Pie");
 // Remove the 5 from the beginning of the array.
-
+myArray.shift();
 // Add the string "Bob Marley" to the beginning of the array.
-
+myArray.unshift("Bob Marley");
 // Remove the string of your choise from the end of the array.
-
-// Reverse this array using Array.prototype.reverse(). Did you mutate the array? What does mutate mean? Did the .reverse() method return anything?
+myArray.pop();
+// Reverse this array using Array.prototype.reverse(). 
+myArray.reverse();
+// Did you mutate the array? What does mutate mean? 
+    // Yes, we mutated the array. This means we did not make myArray equal another array,
+    // but we changes the contents/values inside the array itself.
+// Did the .reverse() method return anything?
+    // It reversed the order of the array.
 
 // 🔴 Commit.
 
