@@ -425,7 +425,12 @@ getMultipleLengths(["Get","these","lengths","now"]);
 //   Write a function printLongestWord that accepts a single 
 //  argument, an array of strings. The method should return the longest word in the 
 //  array. In case of a tie, the method should return the word that appears first in the array.
-  
+let longestFirst = [];  
+const printLongestWord = (arr) => {
+      longestFirst = arr.sort();
+      console.log(longestFirst[0]);
+  };
+printLongestWord(["This is short","This is Lonnnngggestttt","this is loooonger","This is small"]);
 //   console.log(
 //     printLongestWord([
 //       'BoJack',
