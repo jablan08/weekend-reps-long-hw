@@ -562,7 +562,7 @@ user.age++;
 
 // C. Adding keys and values
 // You have decided to add your user's location to the data that you want to collect.
-
+user.location = "The Hidden Lead Village";
 // Without changing the original user object, add a new key location to 
 //the object, and give it a value or some-or-other location (a string).
 // 🔴 Commit.
@@ -570,11 +570,15 @@ user.age++;
 // D. Shopaholic!
 // Our user has purchased an item! They have purchased some "carbohydrates".
 // Using .push(), add the string "carbohydrates" to the purchased array.
+user.purchased.push("carbohydrates");
 // Our user has purchased an item! They have purchased some "peace of mind". 
 //Using .push(), add the string "peace of mind" to the purchased array.
+user.purchased.push("peace of mind");
 // Our user has purchased an item! They have purchased some "Merino jodhpurs". 
 //Using .push(), add the string "Merino jodhpurs" to the purchased array.
+user.purchased.push("Merino jodhpurs");
 // Console.log just the "Merino jodhpurs" from the purchased array.
+console.log(user.purchased[2]);
 // 🔴 Commit.
 
 // E. Object-within-object
