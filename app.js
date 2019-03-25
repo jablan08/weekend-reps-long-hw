@@ -411,7 +411,11 @@ getMultipleLengths(["Get","these","lengths","now"]);
 //  and returns the largest of them. If all numbers are the same, it doesn't 
 //  matter which one is returned. If the two largest numbers are the same, one of them 
 //  should be returned.
-  
+  const maxOfThree = (a,b,c) => {
+      console.log(Math.max(a,b,c));
+  };
+  maxOfThree(2,1,3);
+
 //   console.log(maxOfThree(6, 9, 1));
 //   => 9
   
