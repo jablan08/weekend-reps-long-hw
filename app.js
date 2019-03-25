@@ -365,7 +365,10 @@ printCool("GA");
 //   Write a function isVowel that takes a character 
 //  (i.e. a string of length 1) and returns true if it 
 //  is a vowel, false otherwise. The vowel could be upper or lower case.
-  
+let vowels = ["a","e","i","o","u"]  
+const isVowel = (str) => {
+    return vowels.indexOf(str.toLowerCase()) !== -1;
+  }
 //   console.log(isVowel('a'));
 //   => true
   
