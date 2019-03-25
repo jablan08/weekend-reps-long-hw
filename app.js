@@ -632,6 +632,10 @@ for (let i = 0; i < user.friend.purchased.length; i++) {
 
 // G. Functions can operate on objects
 // Write a single function updateUser that takes no parameters. 
+const updateUser = () => {
+    user.age++
+    user.name = user.name.toUpperCase();
+};
 //When the function is run, it should:
 // it should increment the user's age by 1
 // make the user's name uppercase
@@ -641,4 +645,9 @@ for (let i = 0; i < user.friend.purchased.length; i++) {
 // updateUser, but instead of hard-coding it to only work on our user object,
 // make it take a parameter person, and have it modify the object that is passed in as 
 //an argument when the function is called. Call your oldAndLoud function with user as the argument.
+const updateUser2 = (obj) => {
+    obj.age++
+    obj.name = obj.name.toUpperCase();
+};
+updateUser2(user);
 // 🔴 Commit.
