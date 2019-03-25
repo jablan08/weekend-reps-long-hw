@@ -458,7 +458,10 @@ printLongestWord(["This is short","This is Lonnnngggestttt","this is loooonger",
   
 //   console.log(transmogrify(5, 3, 2));
 //   => 225
-  
+const transmogrify = (e,d,f) => {
+    console.log(Math.pow((e*d),f));
+};
+transmogrify(9,5,5);
 //   🔴 Commit.
   
 //   J. reverseWordOrder v2
