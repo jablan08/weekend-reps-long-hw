@@ -352,7 +352,10 @@ printCool("GA");
 //   C. calculateCube
 //   Write a function calculateCube that takes a single number 
 //   and prints the volume of a cube made from that number.
-  
+  const calculateCube = (num) => {
+      console.log(Math.pow(num, 3));
+  };
+ calculateCube(3);
 //   console.log(calculateCube(5));
 //   => 125
   
