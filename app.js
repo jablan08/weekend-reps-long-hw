@@ -327,7 +327,7 @@ const kristynsCloset = [
   // Access one item from Thom's accessories array.
   thomsCloset[2][1];
   // Log a sentence about what Thom's wearing. Example: "Thom is looking fierce in a grey button-up, jeans and wool scarf!"
-    console.log(` Thom is lookin fire in his ${thomsCloset[0][3]} and his flashy ${thomsCloset[2][2]}.`)
+console.log(` Thom is lookin fire in his ${thomsCloset[0][3]} and his flashy ${thomsCloset[2][2]}.`)
   // Get more specific about what kind of PJs Thom's wearing this winter. Modify the name of his PJ pants to Footie Pajamas.
   thomsCloset[1][2] = "Footie Pajamas";
   // 🔴 Commit.
@@ -337,10 +337,13 @@ const kristynsCloset = [
   console.log("I already complete printGreeting!");
 
 //   B. printCool
-//   Write a function printCool that accepts one parameter, 
-// name as an argument. The function should print the name and a message 
-// saying that that person is cool.
-  
+//  Write a function printCool that accepts one parameter, 
+//  name as an argument. The function should print the name and a message 
+//  saying that that person is cool.
+const printCool = (str) => {
+    console.log(`${str} is cool!`);
+}; 
+printCool("GA"); 
 //   console.log(printCool('Captain Reynolds'));
 //   => "Captain Reynolds is cool";
   
