@@ -126,12 +126,14 @@ for (let i = 0; i <=100; i++)
 // 🔴 Commit.
 
 // C. Give me Five
-// For the numbers 0 - 100, print out "I found a number. High five!" if the number is a multiple of five.
+// For the numbers 0 - 100, print out 
+//"I found a number. High five!" if the number is a multiple of five.
 // Example Output:
 
 // I found a 5. High five!
 // I found a 10. High five!
-// Add to the code from above to print out "I found a number. Three is a crowd" if the number is a multiple of three.
+// Add to the code from above to print out "I found a number. 
+// Three is a crowd" if the number is a multiple of three.
 // Example Output:
 
 // I found a 3. Three is a crowd
@@ -139,6 +141,13 @@ for (let i = 0; i <=100; i++)
 // I found a 6. Three is a crowd
 // I found a 9. Three is a crowd
 // I found a 10. High five!
+for (let i = 0; i <=100; i++) {
+    if (i % 3 ===0) {
+        console.log(`I found a ${i}. Three is a crowd!`)
+    } else if (i % 5 === 0) {
+        console.log(`I found a ${i}.  High five!`)
+    };
+};
 // 🔴 Commit.
 
 // D. Savings account
