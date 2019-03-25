@@ -265,13 +265,17 @@ if (integer <= 100) {
 
 // G. Monkey in the Middle
 // Write an if ... else if ... else statement:
-
+let num = 7;
+if (num < 5){
 // console.log() little number if the number entered is less than 5.
-
+console.log("Little number"); 
 // If the number entered is more than 10, log big number.
-
+} else if (num > 10) {
+    console.log("Big number");
 // Otherwise, log "monkey". 
-
+} else {
+    console.log("monkey");
+};
 // 🔴 Commit.
 
 // H. What's in Your Closet?
